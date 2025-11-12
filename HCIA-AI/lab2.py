@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from bokeh.colors.groups import white
-from holoviews.plotting.bokeh.styles import alpha
 
-
+"""
+线性回归算法实现（扩展）
+"""
 # 计算梯度
 def generate_gradient(X, y, theta):
     sample_count = X.shape[0]
