@@ -1,6 +1,8 @@
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-
+"""
+实验三逻辑回归，通过工具包中的逻辑回归算法实现简单的分类任务，二分类
+"""
 # X：每一项表示租金和面积
 # y：表示是否租赁该房间（0：不租，1：租）
 X=[[2200,15],[2750,20],[5000,40],[4000,20],[3300,20],[2000,10],[2500,12],[12000,80],
